@@ -132,7 +132,7 @@ header nav {
   margin-bottom: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   main {
     flex-wrap: wrap;
   }
