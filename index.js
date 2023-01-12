@@ -1,4 +1,4 @@
-fetch('/data.json')
+fetch('https://github.com/TehIvan/Ivan.github.io/blob/main/data.json')
   .then(response => response.json())
   .then(data => {
     const workContainer = document.querySelector('#work-items');
