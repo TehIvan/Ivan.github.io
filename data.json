@@ -9,7 +9,7 @@
             "",
             "It's features included (In brief):",
             "- Automatic PayPal Invoicing",
-            "- Commissions System, Applications System, Support System",
+            "- Commissions System (Quoting, Questions, Ignoring), Applications System, Support System",
             "- Automatic Freelancer Cut calculation",
             "- Freelancer/CM Banks",
             "- Bank logs",
@@ -20,6 +20,24 @@
             "However, since then I have created and maintained much more complicated and bigger systems."
         ],
         "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/3427f3109595097.Y3JvcCwxMzgwLDEwODAsMCww.jpg",
+        "category": "Discord Bot"
+    },
+    {
+        "title": "Devnics - V1",
+        "url": "https://www.behance.net/gallery/124608321/Devnics-Services-V1",
+        "description": [
+            "{link}",
+            "",
+            "This bot was created for Devnics Services as a simplistic solution to allow Commission/Application creation and management.",
+            "",
+            "Features Included (In Brief):",
+            "- Automatic PayPal Invoicing",
+            "- Commissions System (Quoting, Questions)",
+            "- Freelancer Profiles",
+            "- CM Claiming",
+            "- Premade Products"
+        ],
+        "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/25e91d124608321.Y3JvcCw5OTksNzgyLDAsMTA4.png",
         "category": "Discord Bot"
     }
 ]
