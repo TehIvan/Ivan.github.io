@@ -1,5 +1,24 @@
 [
     {
+        "title": "Navi - V1",
+        "url": "https://www.behance.net/gallery/161277761/Navi-v1-Devnics-v2",
+        "description": [
+            "{link}",
+            "",
+            "This discord bot was created for Devnics' relaunch. It was coded within 2 weeks as it was required quickly.",
+            "",
+            "It's public features include:",
+            "- Commissions System using Modals and Select Menus",
+            "- Support System with claiming",
+            "- Quoting and Questions",
+            "- Seperate guild for freelancers",
+            "- Automatic PayPal Invoicing",
+            "- Coupon Processing"
+        ],
+        "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/4df2a0161277761.Y3JvcCwyNTAwLDE5NTUsMCwyNzI.png",
+        "category": "Discord Bot"
+    },
+    {
         "title": "Team Zentech",
         "url": "https://www.behance.net/gallery/109595097/Team-Zentech%28Madrex-Services%29",
         "description": [
