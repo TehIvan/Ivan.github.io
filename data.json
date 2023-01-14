@@ -58,5 +58,32 @@
         ],
         "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/25e91d124608321.Y3JvcCw5OTksNzgyLDAsMTA4.png",
         "category": "Discord Bot"
+    },
+    {
+        "title": "Marketing Insiders - V1",
+        "url": "https://www.behance.net/gallery/124608621/Marketing-Insiders-Discord-Bot",
+        "description": [
+            "{link}",
+            "",
+            "A simple ticket bot with a TXT transcript system created for the Marketing Insiders Discord Server."
+        ],
+        "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/e1d018124608621.Y3JvcCw0MDQsMzE2LDU5NSw2ODM.png",
+        "category": "Discord Bot"
+    }, 
+    {
+        "title": "Ivan's Assistant - V1",
+        "url": "https://www.behance.net/gallery/124658877/Ivan-Discord-Bot",
+        "description": [
+            "{link}",
+            "",
+            "An assistant created for my Personal Discord Server.",
+            "Features includes:",
+            "- Clock/Clock out System",
+            "- Reminds the Developer when no update has been provided for x amount of time",
+            "- Rating System",
+            "- Invoicing System"
+        ],
+        "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/ce61c2124658877.Y3JvcCw5OTksNzgyLDAsMTA4.png",
+        "category":"Discord Bot"
     }
 ]
