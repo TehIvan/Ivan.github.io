@@ -1,2 +1,2 @@
 # Ivan.github.io
-Site was created use ChatGPT.
+Site was created using ChatGPT.
