@@ -1,89 +1,10 @@
 [
     {
-        "title": "Navi - V1",
-        "url": "https://www.behance.net/gallery/161277761/Navi-v1-Devnics-v2",
-        "description": [
-            "{link}",
-            "",
-            "This discord bot was created for Devnics' relaunch. It was coded within 2 weeks as it was required quickly.",
-            "",
-            "It's public features include:",
-            "- Commissions System using Modals and Select Menus",
-            "- Support System with claiming",
-            "- Quoting and Questions",
-            "- Seperate guild for freelancers",
-            "- Automatic PayPal Invoicing",
-            "- Coupon Processing"
-        ],
-        "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/4df2a0161277761.Y3JvcCwyNTAwLDE5NTUsMCwyNzI.png",
-        "category": "Discord Bot"
+        "title": "P1",
+        "tag": "bots"
     },
     {
-        "title": "Team Zentech",
-        "url": "https://www.behance.net/gallery/109595097/Team-Zentech%28Madrex-Services%29",
-        "description": [
-            "{link}",
-            "",
-            "This discord bot was created for Team Zentech/Cubix Services/Team Madrex as an almost automated process manager.",
-            "",
-            "It's features included (In brief):",
-            "- Automatic PayPal Invoicing",
-            "- Commissions System (Quoting, Questions, Ignoring), Applications System, Support System",
-            "- Automatic Freelancer Cut calculation",
-            "- Freelancer/CM Banks",
-            "- Bank logs",
-            "- Seperate guild for freelancers",
-            "- Details for tickets would be displayed and updated in channel topics.",
-            "",
-            "This was made over 2 years ago. At that time, it was one of my most challenging tasks.",
-            "However, since then I have created and maintained much more complicated and bigger systems."
-        ],
-        "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/3427f3109595097.Y3JvcCwxMzgwLDEwODAsMCww.jpg",
-        "category": "Discord Bot"
-    },
-    {
-        "title": "Devnics - V1",
-        "url": "https://www.behance.net/gallery/124608321/Devnics-Services-V1",
-        "description": [
-            "{link}",
-            "",
-            "This bot was created for Devnics Services as a simplistic solution to allow Commission/Application creation and management.",
-            "",
-            "Features Included (In Brief):",
-            "- Automatic PayPal Invoicing",
-            "- Commissions System (Quoting, Questions)",
-            "- Freelancer Profiles",
-            "- CM Claiming",
-            "- Premade Products"
-        ],
-        "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/25e91d124608321.Y3JvcCw5OTksNzgyLDAsMTA4.png",
-        "category": "Discord Bot"
-    },
-    {
-        "title": "Marketing Insiders - V1",
-        "url": "https://www.behance.net/gallery/124608621/Marketing-Insiders-Discord-Bot",
-        "description": [
-            "{link}",
-            "",
-            "A simple ticket bot with a TXT transcript system created for the Marketing Insiders Discord Server."
-        ],
-        "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/e1d018124608621.Y3JvcCw0MDQsMzE2LDU5NSw2ODM.png",
-        "category": "Discord Bot"
-    }, 
-    {
-        "title": "Ivan's Assistant - V1",
-        "url": "https://www.behance.net/gallery/124658877/Ivan-Discord-Bot",
-        "description": [
-            "{link}",
-            "",
-            "An assistant created for my Personal Discord Server.",
-            "Features includes:",
-            "- Clock/Clock out System",
-            "- Reminds the Developer when no update has been provided for x amount of time",
-            "- Rating System",
-            "- Invoicing System"
-        ],
-        "image": "https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/ce61c2124658877.Y3JvcCw5OTksNzgyLDAsMTA4.png",
-        "category":"Discord Bot"
+        "title": "P2",
+        "tag": "web"
     }
 ]

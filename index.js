@@ -1,44 +1,43 @@
-fetch('/data.json')
-  .then(response => response.json())
-  .then(data => {
-    const workContainer = document.querySelector('#work-items');
-    data.forEach(item => {
-      const workItem = document.createElement('div');
-      workItem.classList.add('work-item');
+const buttons = document.querySelectorAll(".f-option");
+const container = document.querySelector(".portfolio");
 
-      const title = document.createElement('h3');
-      title.textContent = item.title;
-      workItem.appendChild(title);
+let selected = null;
 
-      const image = document.createElement('img');
-      image.src = item.image;
-      image.alt = `Screenshot of ${item.title}`;
-      workItem.appendChild(image);
+for (const btn of buttons) {
+  btn.onclick = () => {
+    if (selected != null) {
+      selected.classList.remove("selected");
+    }
 
-      const description = document.createElement('p');
+    let value = btn.attributes.getNamedItem("data-type").value;
 
-      let text = "<p>" + item.description.join("<br>").replace("{link}", `<a href=${item.url}>View Images</a>`) + "</p>"
+    renderPage(value);
 
-      description.innerHTML = text;
-      description.classList.add("description")
-      workItem.appendChild(description);
+    selected = btn;
+    btn.classList.add("selected");
+  };
+}
 
-      const category = document.createElement('p');
-      category.textContent = `Category: ${item.category}`;
+function renderPage(tag = null) {
+  fetch("/data.json")
+    .then((res) => res.json())
+    .then((data) => {
+      let json = data;
 
-      const button = document.createElement("button");
-      button.classList.add("expand-btn");
-      button.textContent = "Read More"
-      
-      button.addEventListener('click', event => {
-        const parentNode = event.target.parentNode;
-        parentNode.classList.toggle('expanded');
-        event.target.textContent = parentNode.classList.contains('expanded') ? 'Read less' : 'Read more';
+      if (tag != null) {
+        json = data.filter((r) => r.tag == tag);
+
+        console.log(json)
+      }
+
+      container.innerHTML = json.map(r => {
+        return createDiv(r);
+      }).join("");
     });
+}
 
-      workItem.append(button);
-      workItem.appendChild(category);
+function createDiv(r) {
+  return `<div class="p-item"><h2>${r.title}</h2></div>`
+}
 
-      workContainer.appendChild(workItem);
-    });
-  });
+renderPage();

@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  color: black;
+  font-family: sans-serif;
+  background-color: #ec9d00;
+}
+
+main {
+  margin: 10px;
+  height: 100%;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.services {
+  padding: 10px;
+  display: grid;
+  justify-content: center;
+  max-width: 500px;
+  min-width: 300px;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 20px;
+  width: 100px;
+  background-color: transparent;
+  color: black;
+  border: black 2px solid;
+  font-weight: bold;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+li {
+  text-align: left;
+}
+
+button:hover {
+  opacity: 50%;
+}
