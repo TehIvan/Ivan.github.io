@@ -37,7 +37,7 @@ function renderPage(tag = null) {
 }
 
 function createDiv(r) {
-  return `<div class="p-item"><h2>${r.title}</h2></div>`
+  return `<a href="/view-portfolio.html?title=${r.title}"><button class="p-item"><h2>${r.title}</h2></button></a>`
 }
 
 renderPage();

@@ -47,4 +47,31 @@ body {
     margin: 20px;
     background-color: rgb(0, 0, 0);
     padding: 10px;
+    cursor: pointer;
+}
+
+.p-item:hover {
+    opacity: 50%;
+}
+
+.p-image {
+    padding: 10px;
+}
+
+.p-title {
+    padding: 10px;
+    text-align: center;
+}
+
+* {
+    overflow-x: hidden;
+}
+
+.p-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+    padding: 10px;
 }

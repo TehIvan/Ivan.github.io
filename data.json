@@ -1,10 +1,14 @@
 [
     {
-        "title": "P1",
+        "title": "Devnics",
+        "images": [
+            "https://mir-s3-cdn-cf.behance.net/project_modules/disp/02b1e1124608321.6107fc47de2dd.png",
+            "https://mir-s3-cdn-cf.behance.net/project_modules/disp/07ea7f124608321.6107fc47dc0b5.png",
+            "https://mir-s3-cdn-cf.behance.net/project_modules/disp/66c841124608321.6107fc47ddbd3.png",
+            "https://mir-s3-cdn-cf.behance.net/project_modules/disp/47690d124608321.6107fc47dcd92.png",
+            "https://mir-s3-cdn-cf.behance.net/project_modules/disp/af3a2d124608321.6107fc47dc708.png",
+            "https://mir-s3-cdn-cf.behance.net/project_modules/disp/bafb74124608321.6107fc47dd3cd.png"
+        ],
         "tag": "bots"
-    },
-    {
-        "title": "P2",
-        "tag": "web"
     }
 ]
